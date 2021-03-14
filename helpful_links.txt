@@ -1,0 +1,3 @@
+How to process wav files:
+
+https://nbviewer.jupyter.org/github/mgeier/python-audio/blob/master/audio-files/audio-files-with-pysoundfile.ipynb
