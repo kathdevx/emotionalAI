@@ -1,2 +1,25 @@
-/Podcast Data
+/Podcast Data/Audio Tokens
+/Podcast Data/Audios
+/Podcast Data/vq-wav2vec-Kmeans-Roberta
+/Podcast Data/labels_paths/paths_to_train_wavs.txt
+/Podcast Data/labels_paths/paths_to_train_wavs_batch0.txt
+/Podcast Data/labels_paths/paths_to_train_wavs_batch1.txt
+/Podcast Data/labels_paths/paths_to_train_wavs_batch2.txt
+/Podcast Data/labels_paths/paths_to_train_wavs_batch3.txt
+/Podcast Data/labels_paths/paths_to_train_wavs_batch4.txt
+/Podcast Data/labels_paths/Labels.txt
+/Podcast Data/labels_paths/train_labels.csv
+/Podcast Data/labels_paths/labels_concensus.csv
+/Podcast Data/labels_paths/labels_concensus.json
+/Podcast Data/labels_paths/labels_concensus.xlsx
+/Podcast Data/labels_paths/labels_detailed.csv
+/Podcast Data/labels_paths/labels_detailed(1).xlsx
+/Podcast Data/labels_paths/labels_detailed.xlsx
+/Podcast Data/labels_paths/labels_detailed.json
+/Podcast Data/Audios_New.zip
+/Podcast Data/labels_paths.zip
+/Podcast Data/pretrained model - classified sentences-20220113T141711Z-001.zip
+/Podcast Data/training chunks.zip
+/Podcast Data/training sentences.zip
+/Podcast Data/vq-wav2vec-Kmeans-Roberta-20220113T141939Z-001.zip
 /.idea
