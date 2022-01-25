@@ -5,3 +5,7 @@
 |fine-tuned VQ-Wav2Vec Kmeans| Speech Training and Prediction | [download]() ADD LINK
 |Roberta Base| Text Prediction| [download](https://dl.fbaipublicfiles.com/fairseq/models/roberta.base.tar.gz)
 | fine-tuned Roberta Base| Text Training and Prediction|[download]() ADD LINK
+
+## Errors
+
+file MSP-PODCAST_1023_0235.wav (in training_batch0) has assertion error, audiofile can't be tokenised correctly

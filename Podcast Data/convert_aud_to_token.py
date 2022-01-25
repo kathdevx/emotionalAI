@@ -9,7 +9,7 @@ import soundfile as sf
 from fairseq.models.wav2vec import Wav2VecModel
 from fairseq.models.roberta import RobertaModel
 
-problem_aud = open('vq-wav2vec-Kmeans-Roberta/PROBLEM_AUD1.text', 'w')
+# problem_aud = open('vq-wav2vec-Kmeans-Roberta/PROBLEM_AUD1.text', 'w')
 
 
 class EmotionDataPreprocessing:
@@ -53,15 +53,16 @@ class EmotionDataPreprocessing:
             print(len(audio_files), " audio_files found")
 
             for audio_file in audio_files:
-                print(f'{current_num}/{len(audio_files)} done')
+                print(f'{current_num + 1}/{len(audio_files)} done')
                 output_file = audio_file.replace('Audio', 'Audio Token').replace('.pt', '.txt')
-                if os.path.exists(output_file):
+                if os.path.exists(output_file) or output_file == 'Audio Tokens/MSP-PODCAST_1023_0235.wav':
                     # print(f'{output_file} already exists!')
                     current_num += 1
                     if current_num > num_items:
                         break
                     continue
                 print(f'{current_num}/{len(audio_files) - 1} was not in there!')
+
                 audio_features = self.preprocess_audio_file(audio_file).unsqueeze(0)
 
                 # wav2vec
