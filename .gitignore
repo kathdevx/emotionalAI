@@ -25,3 +25,5 @@
 /.idea
 /fix_emotion_labels.py
 /Podcast Data/Sentence Tokens/
+/fairseq
+/apex
