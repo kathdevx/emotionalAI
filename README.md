@@ -1,3 +1,7 @@
+## Model Architecture
+
+![Model Architecture](architecture.png)
+
 |Model name|Task  | Model file|
 |---|---|---|
 |Wav2Vec 2.0 Large 960h|audio to text| [download](https://dl.fbaipublicfiles.com/fairseq/wav2vec/wav2vec_big_960h.pt)
